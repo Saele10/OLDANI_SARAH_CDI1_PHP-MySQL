@@ -31,7 +31,7 @@ require_once 'connexionBDD.php';
         <a href="cartes.php"><img src="img/logo.png" alt="Logo Pokemon" id="logo"></a>
         <div>
             <img src="img/darkMode.png" alt="Dark Mode" id="dark" class="icone">
-            <a href="profile.php"><img src="img/profile.png" alt="profile" id="profile" class="icone"></a>
+            <a href="inscription.php"><img src="img/profile.png" alt="profile" id="profile" class="icone"></a>
             <img src="img/loupe.png" alt="Search" id="loupe" class="icone">
         </div>
     </header>
