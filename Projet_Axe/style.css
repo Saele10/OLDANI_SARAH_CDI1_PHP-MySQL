@@ -1,0 +1,524 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Dark Mode*/
+
+.darkMode {
+    background-color: black;
+}
+
+.darkMode h1 {
+    color: white;
+}
+
+.darkMode h2 {
+    color: white;
+}
+
+.darkMode header {
+    background-color: black;
+}
+
+.darkMode label {
+    color: white;
+}
+
+.darkMode form p {
+    color: white;
+}
+
+.darkMode .signIn {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: azure;
+}
+.darkMode .sideBar {
+    background-color: black;
+}
+.darkMode .sideBar a {
+    color: aliceblue;
+}
+
+
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: aliceblue;
+    position: fixed;
+    height: 80px;
+    margin-top: 0px;
+}
+
+.icone {
+    width: 40px;
+    margin: 5px 10px;
+}
+
+#logo {
+    width: 200px;
+    align-self: center;
+    margin: 5px 10px;
+}
+
+
+header div {
+    align-self: center;
+}
+
+/* Main */
+
+main {
+    padding-top: 100px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+h1 {
+    font-size: 70px;
+}
+
+/* Menu */
+.sideBar {
+    height: 100%;
+    width: 15%;
+    visibility: hidden;
+    transition: 5s;
+    position: absolute;
+    left: -100px;
+    transition: 0.5s;
+}
+
+.activeSB {
+    position: absolute;
+    visibility: visible;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    justify-content: baseline;
+    position: fixed;
+}
+
+.activeSB ul li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.activeSB ul li {
+    margin: 10px 0px;
+}
+
+.activeSB h2 {
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.activeSB ul {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cartes */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: space-between;
+}
+
+.carte {
+    border: 10px solid gold;
+    border-radius: 5%;
+    width: 200px;
+    height: 300px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nom {
+    margin-left: 20px;
+}
+
+.font {
+    font-size: 12px;
+}
+
+.headInfo {
+    display: flex;
+    margin: 4px 10px;
+    justify-content: space-between;
+    width: auto;
+}
+
+.headInfo h6 {
+    margin: 0px 0px 0px 15px;
+
+}
+
+.health {
+    height: 20px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.health h6 {
+    margin-top: 10px;
+    font-size: xx-small;
+}
+
+.health h3 {
+    margin: 0px;
+}
+
+/* Energie */
+.fire {
+    background-color: crimson;
+}
+
+.plant {
+    background-color: chartreuse;
+}
+
+.water {
+    background-color: cornflowerblue;
+}
+
+.elektrik {
+    background-color: yellow;
+}
+
+.psy {
+    background-color: mediumorchid;
+}
+
+.fight {
+    background-color: darkgoldenrod;
+}
+
+.dragon {
+    background-color: rgb(147, 128, 3);
+}
+
+.basic {
+    background-color: rgb(207, 203, 203);
+}
+
+.energie {
+    width: 18px;
+    height: 18px;
+}
+
+.energieWeak {
+    width: 11px;
+    height: 11px;
+    margin-left: 2px;
+}
+
+.imgCarte {
+    width: auto;
+    border: 3px solid rgb(242, 235, 235);
+    margin: 0px 10px;
+}
+
+.attacks {
+    height: 97px;
+    width: auto;
+    padding: 0px 10px;
+    margin: 5px 0px;
+}
+
+.attacks h3 {
+    margin: 3px 0px;
+}
+
+.attacks p {
+    margin-top: 5px;
+    font-size: 10px;
+    text-align: left;
+}
+
+.degats {
+    font-size: 15px;
+    margin: 0px;
+}
+
+.Denergie {
+    display: flex;
+    width: 40px;
+    height: 20px;
+}
+
+.att {
+    height: 20px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+    padding: 0px;
+}
+
+.description {
+    padding: 0px 5px;
+    font-size: 14px;
+}
+
+.pokeInfo {
+    font-size: 8px;
+    text-align: right;
+}
+
+.weakRetreat {
+    background-color: rgb(242, 235, 235);
+    display: flex;
+    height: 15px;
+    width: auto;
+    padding: 2px 3px;
+}
+
+.weakRetreat h5 {
+    margin: 0px;
+}
+
+.resist {
+    padding-left: 7px;
+}
+
+.retreat {
+    padding-left: 9px;
+    padding-right: 5px;
+}
+
+.footerCarte {
+    display: flex;
+    margin: 5px 10px;
+}
+
+.numberPoke {
+    padding-top: 6px;
+    padding-right: 6px;
+}
+
+/* naviguation*/
+ul {
+    display: flex;
+    justify-content: start;
+    list-style-type: none;
+}
+
+.tab {
+    height: 30px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    background-color: lightgray;
+    margin: 0px 10px;
+    border-radius: 15% 15% 0% 0%;
+}
+
+.tab-active {
+    background-color: darkgrey;
+    font-size: 25px;
+    width: 80px;
+}
+
+.tab-plantContent {
+    border: 4px solid rgba(127, 255, 0, 0.5);
+}
+
+.tab-fireContent {
+    border: 4px solid rgba(220, 20, 60, 0.5);
+}
+
+.tab-waterContent {
+    border: 4px solid rgba(100, 149, 237, 0.5);
+}
+
+
+.content {
+    display: flex;
+    width: 100%;
+
+}
+
+.active {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto;
+    height: auto;
+}
+
+.fireContent {
+    background-color: rgba(220, 20, 60, 0.5);
+}
+
+.plantContent {
+    background-color: rgba(127, 255, 0, 0.5);
+}
+
+.waterContent {
+    background-color: rgba(100, 149, 237, 0.5);
+}
+
+/* Formulaires */
+
+
+.forms {
+    /*main profile.html*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.input-error {
+    border: solid red 1px;
+}
+
+.input-ok {
+    border: 1px green solid;
+}
+
+.signIn {
+    border: 3px solid black;
+    background-color: rgba(41, 36, 36, 0.5);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.logIn {
+    border: 3px solid black;
+    background-color: rgba(41, 36, 36, 0.5);
+    border-radius: 10%;
+    height: 300px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    width: 350px;
+}
+
+form label {
+    margin: 10px 0px;
+}
+
+form input {
+    margin: 5px 0px;
+}
+
+button {
+    margin: 10px 100px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.radioSexe {
+    display: flex;
+    justify-content: center;
+}
+
+.radioSexe p {
+    margin-top: 10px;
+}
+
+.errorPassword {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(255, 133, 133);
+    width: auto;
+    margin: 10px;
+    padding: 0px 50px;
+    border: 1px solid red;
+}
+
+.errorPseudo {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(255, 133, 133);
+    width: auto;
+    margin: 10px;
+    padding: 0px 50px;
+    border: 1px solid red;
+}
+.success {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(175, 243, 180);
+    width: auto;
+    margin: 10px;
+    padding: 0px 50px;
+    border: 1px solid rgb(5, 192, 5);
+}
+.activeError {
+    display: block;
+}
+.signIn ul {
+    display: flex;
+    flex-direction: column;
+}
+.signIn li {
+    list-style-type: disc;
+    color: red;
+    font-size: 10px;
+    text-align: left;
+}
+.success li {
+    list-style-type: disc;
+    color: rgb(5, 192, 5);
+    font-size: 15px;
+    text-align: left;
+}
+
+/* Profile */
+
+.profile {
+    border: 3px solid black;
+    background-color: rgba(41, 36, 36, 0.5);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    width: 350px;
+
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modifyPokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+    background-color: rgba(41, 36, 36, 0.5);
+    border-radius: 10%;
+    height: fit-content;
+
+}
